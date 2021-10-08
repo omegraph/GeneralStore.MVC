@@ -17,7 +17,26 @@ namespace GeneralStore.MVC.Controllers
         public ActionResult Index()
         {
             // See below (modifying ApplicationDbContext class)
-            return View(_db.Products.ToList());
+            return View(_db.Customers.ToList());
+        }
+
+        // Get: Customer
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // Post: Customer
+        [HttpPost]
+        public ActionResult Create(Customer customer)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Customers.Add(customer);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(customer);
         }
     }
 }
