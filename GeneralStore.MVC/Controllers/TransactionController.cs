@@ -15,6 +15,18 @@ namespace GeneralStore.MVC.Controllers
         {
             return View(_db.Transactions.ToList());
         }
+        // GET: Transaction/{id} (Get a specific transaction by id)
+        public ActionResult Details(int id)
+        {
+            Transaction transaction = _db.Transactions.Find(id);
+
+            if (transaction == null)
+            {
+                return HttpNotFound();
+            }
+            return View(transaction);
+        }
+
         // GET: Transaction/Create
         //ViewData / ViewBags
         public ActionResult Create()
@@ -45,32 +57,27 @@ namespace GeneralStore.MVC.Controllers
         }
 
         // GET: Transaction/Delete/{id}
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
             Transaction transaction = _db.Transactions.Find(id);
             if (transaction == null)
             {
                 return HttpNotFound();
             }
-
-
             return View(transaction);
         }
+
         // POST: Transaction/Delete/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(Transaction transaction)
+        public ActionResult Delete(int id)
         {
-            // DO OUR DB STUFF
-            //***********************************
-            if (/* something went wrong */ 1 = 1)
-            {
-                // return custom view
-                ViewData["ErrorMessage"] = "Couldn't delete your transaction";
-                return View(transaction);
-            }
+            Transaction transaction = _db.Transactions.Find(id);
+            _db.Transactions.Remove(transaction);
+            _db.SaveChanges();
             return RedirectToAction("Index" );
         }
+
         // GET: Transaction/Edit/{id}
         public ActionResult Edit(int id)
         {
@@ -95,6 +102,7 @@ namespace GeneralStore.MVC.Controllers
             return View(transaction);
         }
         //Post: Transaction/Edit/{id}
+        [HttpPost]
         public ActionResult Edit(Transaction transaction)
         {
             ViewData["Customers"] = _db.Customers.Select(customer => new SelectListItem
