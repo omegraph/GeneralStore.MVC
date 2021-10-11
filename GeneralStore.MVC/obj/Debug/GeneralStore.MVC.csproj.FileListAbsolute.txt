@@ -1,8 +1,3 @@
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialCreate.resources
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialMigration.resources
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.GenerateResource.cache
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.CoreCompileInputs.cache
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.AssemblyReference.cache
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\GeneralStore.MVC.dll.config
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\GeneralStore.MVC.dll
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\GeneralStore.MVC.pdb
@@ -106,7 +101,12 @@ C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\Microsoft.
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\Microsoft.Owin.Security.OAuth.xml
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialMigration.resources
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialMigration1.resources
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.CopyComplete
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.dll
 C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.pdb
-C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.Migrations.InitialMigration1.resources
+C:\ElevenFiftyProjects\RedBadge\GeneralStore.MVC\GeneralStore.MVC\obj\Debug\GeneralStore.MVC.csproj.AssemblyReference.cache
